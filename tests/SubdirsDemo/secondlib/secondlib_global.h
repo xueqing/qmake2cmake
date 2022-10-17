@@ -1,0 +1,12 @@
+#ifndef SECONDLIB_GLOBAL_H
+#define SECONDLIB_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(SECONDLIB_LIBRARY)
+#  define SECONDLIBSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define SECONDLIBSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // SECONDLIB_GLOBAL_H
