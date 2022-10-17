@@ -3,3 +3,4 @@ __pycache__
 .qmake2cmake
 *.egg-info
 .coverage
+env/
