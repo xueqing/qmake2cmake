@@ -7,3 +7,4 @@ env/
 *.pro.user
 tests/SubdirsDemo/build/
 tests/build-SubdirsDemo-*/
+tests/SubdirsDemo/cbuild/
