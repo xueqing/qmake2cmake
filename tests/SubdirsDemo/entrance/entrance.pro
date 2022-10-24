@@ -7,9 +7,11 @@ SOURCES += main.cpp
 
 INCLUDEPATH += \
     $$PWD/../firstlib \
-    $$PWD/../secondlib
+    $$PWD/../secondlib \
+    $$PWD/../include
 
 LIBS += -lsecondlib -lfirstlib
+LIBS += -L$$PWD/../lib -ljson11
 
 CONFIG(debug, debug|release) {
     LIBS += -L$$PWD/../build/debug

@@ -15,13 +15,17 @@ qt_add_executable(entrance
 target_include_directories(entrance PRIVATE
     ../firstlib
     ../secondlib
+    ../include
 )
+
+find_library(libjson11 json11 ${CMAKE_CURRENT_SOURCE_DIR}/../lib)
 
 target_link_libraries(entrance PRIVATE
     Qt::Core
     Qt::Gui
     secondlib
     firstlib
+    ${libjson11}
 )
 
 install(TARGETS entrance
