@@ -1,6 +1,5 @@
 qt_add_library(secondlib
     secondlib.cpp secondlib.h
-    secondlib_global.h
 )
 target_include_directories(secondlib PUBLIC
     ../firstlib

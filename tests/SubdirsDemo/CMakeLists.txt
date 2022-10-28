@@ -12,6 +12,7 @@ include(GNUInstallDirs)
 find_package(QT NAMES Qt5 Qt6 REQUIRED COMPONENTS Core)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Gui)
 
+set(CMAKE_CXX_STANDARD 11)
 
 add_subdirectory(firstlib)
 add_subdirectory(secondlib)

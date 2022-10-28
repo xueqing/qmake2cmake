@@ -24,8 +24,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += firstlib.cpp
 
-HEADERS += firstlib.h\
-        firstlib_global.h
+HEADERS += firstlib.h
 
 unix {
     target.path = /usr/lib

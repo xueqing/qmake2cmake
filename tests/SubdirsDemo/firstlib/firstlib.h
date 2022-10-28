@@ -1,9 +1,7 @@
 #ifndef FIRSTLIB_H
 #define FIRSTLIB_H
 
-#include "firstlib_global.h"
-
-class FIRSTLIBSHARED_EXPORT Firstlib
+class Firstlib
 {
 
 public:

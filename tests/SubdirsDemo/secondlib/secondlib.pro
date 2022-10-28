@@ -24,8 +24,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += secondlib.cpp
 
-HEADERS += secondlib.h\
-        secondlib_global.h
+HEADERS += secondlib.h
 
 unix {
     target.path = /usr/lib

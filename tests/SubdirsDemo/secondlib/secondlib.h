@@ -1,10 +1,9 @@
 #ifndef SECONDLIB_H
 #define SECONDLIB_H
 
-#include "secondlib_global.h"
 #include "firstlib.h"
 
-class SECONDLIBSHARED_EXPORT Secondlib
+class Secondlib
 {
 
 public:

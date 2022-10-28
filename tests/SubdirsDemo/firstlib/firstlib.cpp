@@ -1,20 +1,22 @@
 #include "firstlib.h"
 
-#include <QtDebug>
+#include <iostream>
+
+using namespace std;
 
 Firstlib::Firstlib()
     : m_nNum(1)
 {
-    qDebug() << "Firstlib(): m_nNum=" << m_nNum;
+    cout << "Firstlib(): m_nNum=" << m_nNum << endl;
 }
 
 Firstlib::Firstlib(int num)
     : m_nNum(num)
 {
-    qDebug() << "Firstlib(int): m_nNum=" << m_nNum;
+    cout << "Firstlib(int): m_nNum=" << m_nNum << endl;
 }
 
 Firstlib::~Firstlib()
 {
-    qDebug() << "~Firstlib(): m_nNum=" << m_nNum;
+    cout << "~Firstlib(): m_nNum=" << m_nNum << endl;
 }

@@ -1,24 +1,26 @@
 #include "secondlib.h"
 
-#include <QDebug>
+#include <iostream>
+
+using namespace std;
 
 Secondlib::Secondlib()
     : m_nNum(2)
     , m_pFirst(new Firstlib(2))
 {
-    qDebug() << "Secondlib(): m_nNum=" << m_nNum;
+    cout << "Secondlib(): m_nNum=" << m_nNum << endl;
 }
 
 Secondlib::Secondlib(int num)
     : m_nNum(num)
     , m_pFirst(new Firstlib(num))
 {
-    qDebug() << "Secondlib(int): m_nNum=" << m_nNum;
+    cout << "Secondlib(int): m_nNum=" << m_nNum << endl;
 }
 
 Secondlib::~Secondlib()
 {
-    qDebug() << "~Secondlib(): m_nNum=" << m_nNum;
+    cout << "~Secondlib(): m_nNum=" << m_nNum << endl;
     if (m_pFirst)
     {
         delete m_pFirst;

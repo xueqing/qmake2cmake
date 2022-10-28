@@ -1,6 +1,5 @@
 qt_add_library(firstlib
     firstlib.cpp firstlib.h
-    firstlib_global.h
 )
 target_compile_definitions(firstlib PUBLIC
     FIRSTLIB_LIBRARY
